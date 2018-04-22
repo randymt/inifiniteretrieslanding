@@ -1,0 +1,81 @@
+// Styling for the masthead
+header.masthead {
+    position: relative;
+
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+
+    color: $theme-primary;
+
+    .header-content {
+        // background: lightgray;
+        margin-bottom: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center !important;
+        h1 {
+          text-transform: uppercase;
+          font-family: Montserrat, sans-serif;
+          font-size: 70px;
+          letter-spacing: 8px;
+          padding-top: 100px;
+          strong {
+            font-weight: 700;
+          }
+        }
+        img {
+          padding: 121px 0px;
+        }
+        .slogan {
+          color: $gray-light;
+          @include alt-font;
+          color: white;
+          font-size: 42px;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing:10px;
+          h2 {
+              border-radius: 5px;
+              padding: 10px 33px;
+              background: $theme-primary;
+            }
+          .center-item {
+            background: $theme-secondary;
+          }
+          .sub-slogan {
+            color: $gray-light;
+          }
+
+        }
+
+      .header-submit {
+
+      }
+
+    }
+
+    .device-container {
+        max-width: 325px;
+        margin-right: auto;
+        margin-left: auto;
+        .screen img {
+            border-radius: 3px;
+        }
+    }
+    @media (min-width: 992px) {
+        height: 100vh;
+        min-height: 775px;
+        padding-top: 0;
+        padding-bottom: 0;
+        .header-content {
+            margin-bottom: 0;
+
+            text-align: left;
+
+        }
+        .device-container {
+            max-width: 325px;
+        }
+    }
+}
