@@ -63,14 +63,13 @@
 }
 
 @mixin heading-font {
-    font-family: 'Open Sans', 'Arial', 'sans-serif';
-    font-weight: 200;
+    font-family: 'Montserrat', 'Arial', 'sans-serif';
     letter-spacing: 1px;
 }
 
 @mixin body-font {
-    font-family: 'Open Sans', 'Arial', sans-serif;
-    font-weight: 400;
+    font-family: 'Open Sans', 'Arial', 'sans-serif';
+
     letter-spacing: 1px;
 }
 

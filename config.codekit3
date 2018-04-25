@@ -9,6 +9,26 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/css\/animate-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/animate-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/animate.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/animate-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/new-age.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1003,6 +1023,39 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/img\/beakers.png": {
+		"ft": 32768,
+		"iS": 33294,
+		"oA": 0,
+		"oAP": "\/img\/beakers.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/bubbles.png": {
+		"ft": 32768,
+		"iS": 10242,
+		"oA": 0,
+		"oAP": "\/img\/bubbles.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/bubbles@2x.png": {
+		"ft": 32768,
+		"iS": 33954,
+		"oA": 0,
+		"oAP": "\/img\/bubbles@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/logo.png": {
 		"ft": 32768,
 		"iS": 9264,
@@ -1132,19 +1185,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/scss\/_download.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/scss\/_download.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/scss\/_features.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1206,6 +1246,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_threecs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_threecs.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2039,7 +2092,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 546107380,
-	"displayValue": "landingpage",
+	"displayValue": "inifiniteretrieslanding",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-maroney",
 	"iconImageWasSetByUser": 0

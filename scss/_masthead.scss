@@ -9,7 +9,6 @@ header.masthead {
     color: $theme-primary;
 
     .header-content {
-        // background: lightgray;
         margin-bottom: 100px;
         margin-left: auto;
         margin-right: auto;
@@ -19,38 +18,65 @@ header.masthead {
           font-family: Montserrat, sans-serif;
           font-size: 70px;
           letter-spacing: 8px;
-          padding-top: 100px;
+          padding-top: 30px;
+          -webkit-animation-duration: 2s;
+          -webkit-animation-delay: 0s;
           strong {
             font-weight: 700;
           }
         }
         img {
-          padding: 121px 0px;
+          max-width: 417px;
+          width: 100%;
+          padding: 130px 0px;
+          -webkit-animation-duration: 1.5s;
+          -webkit-animation-delay: .5s;
+          // -webkit-animation-iteration-count: infinite;
         }
         .slogan {
           color: $gray-light;
-          @include alt-font;
           color: white;
-          font-size: 42px;
-          font-weight: 700;
-          text-transform: uppercase;
-          letter-spacing:10px;
+          .c-box-1 {
+            -webkit-animation-duration: 1s;
+            -webkit-animation-delay: 0.5s;
+            // -webkit-animation-iteration-count: infinite;
+          }
+          .c-box-2 {
+            -webkit-animation-duration: 1s;
+            -webkit-animation-delay: 1s;
+            // -webkit-animation-iteration-count: infinite;
+          }
+          .c-box-3 {
+            -webkit-animation-duration: 1s;
+            -webkit-animation-delay: 1.5s;
+            // -webkit-animation-iteration-count: infinite;
+          }
           h2 {
-              border-radius: 5px;
-              padding: 10px 33px;
-              background: $theme-primary;
+            font-size: 40px;
+            @include alt-font;
+            letter-spacing: 5px;
+            font-weight: 700;
+            border-radius: 5px;
+            padding: 10px 33px;
+            background: $theme-primary;
             }
           .center-item {
             background: $theme-secondary;
           }
           .sub-slogan {
-            color: $gray-light;
+            margin: 0 auto;
+            h3 {
+              @include body-font;
+              font-size: 21px;
+              color: $gray-light;
+              padding: 15px 0;
+            }
           }
 
         }
 
       .header-submit {
-
+        margin-top: 125px;
       }
 
     }
@@ -65,7 +91,7 @@ header.masthead {
     }
     @media (min-width: 992px) {
         height: 100vh;
-        min-height: 775px;
+        min-height: 1000px;
         padding-top: 0;
         padding-bottom: 0;
         .header-content {
