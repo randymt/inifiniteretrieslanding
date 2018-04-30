@@ -16,7 +16,7 @@ header.masthead {
         h1 {
           text-transform: uppercase;
           font-family: Montserrat, sans-serif;
-          font-size: 70px;
+          font-size: 60px;
           letter-spacing: 8px;
           padding-top: 30px;
           -webkit-animation-duration: 2s;
@@ -63,15 +63,6 @@ header.masthead {
           .center-item {
             background: $theme-secondary;
           }
-          .sub-slogan {
-            margin: 0 auto;
-            h3 {
-              @include body-font;
-              font-size: 21px;
-              color: $gray-light;
-              padding: 15px 0;
-            }
-          }
 
         }
 
@@ -88,6 +79,19 @@ header.masthead {
         .screen img {
             border-radius: 3px;
         }
+    }
+    .sub-slogan {
+      margin: 0 auto;
+      h3 {
+        @include body-font;
+        font-size: 21px;
+        color: $gray-light;
+        padding: 15px 0;
+      }
+      p {
+        padding-top:50px ;
+        font-size: 18px;
+      }
     }
     @media (min-width: 992px) {
         height: 100vh;

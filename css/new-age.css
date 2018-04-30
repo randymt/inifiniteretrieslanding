@@ -57,7 +57,7 @@ header.masthead {
     header.masthead .header-content h1 {
       text-transform: uppercase;
       font-family: Montserrat, sans-serif;
-      font-size: 70px;
+      font-size: 60px;
       letter-spacing: 8px;
       padding-top: 30px;
       -webkit-animation-duration: 2s;
@@ -94,14 +94,6 @@ header.masthead {
         background: #211038; }
       header.masthead .header-content .slogan .center-item {
         background: #FF4317; }
-      header.masthead .header-content .slogan .sub-slogan {
-        margin: 0 auto; }
-        header.masthead .header-content .slogan .sub-slogan h3 {
-          font-family: 'Open Sans', 'Arial', 'sans-serif';
-          letter-spacing: 1px;
-          font-size: 21px;
-          color: #777777;
-          padding: 15px 0; }
     header.masthead .header-content .header-submit {
       margin-top: 125px; }
   header.masthead .device-container {
@@ -110,6 +102,17 @@ header.masthead {
     margin-left: auto; }
     header.masthead .device-container .screen img {
       border-radius: 3px; }
+  header.masthead .sub-slogan {
+    margin: 0 auto; }
+    header.masthead .sub-slogan h3 {
+      font-family: 'Open Sans', 'Arial', 'sans-serif';
+      letter-spacing: 1px;
+      font-size: 21px;
+      color: #777777;
+      padding: 15px 0; }
+    header.masthead .sub-slogan p {
+      padding-top: 50px;
+      font-size: 18px; }
   @media (min-width: 992px) {
     header.masthead {
       height: 100vh;

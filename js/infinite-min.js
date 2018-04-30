@@ -1,0 +1,1 @@
+$(document).ready(function(){$(window).scroll(function(){$(document).scrollTop()>650?$(".funstuff").addClass("animated jackInTheBox"):$(".funstuff").removeClass("animated jackInTheBox")})});

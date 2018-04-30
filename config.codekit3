@@ -1085,22 +1085,22 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/js\/infinite.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/infinite-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/new-age.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/new-age-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/new-age.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/new-age.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1288,6 +1288,26 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/vendor\/aos\/aos.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/vendor\/aos\/aos-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/vendor\/aos\/aos.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendor\/aos\/aos-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/vendor\/bootstrap\/css\/bootstrap-grid.css": {
 		"aP": 1,
